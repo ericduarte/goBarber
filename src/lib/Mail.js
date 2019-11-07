@@ -11,7 +11,7 @@ class Mail {
       host,
       port,
       secure,
-      auth,
+      auth: auth.user ? auth : null,
     });
   }
 
